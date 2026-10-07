@@ -1,0 +1,21 @@
+{
+	"name": "AzureSQL_DB_Parameterised",
+	"properties": {
+		"annotations": [
+			"Parameterised",
+			"CrossEnv"
+		],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "dadfgbl0.database.windows.net",
+			"database": "dadfgbl0",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SystemAssignedManagedIdentity"
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
