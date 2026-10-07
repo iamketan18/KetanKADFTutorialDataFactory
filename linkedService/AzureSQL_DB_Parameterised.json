@@ -1,6 +1,11 @@
 {
 	"name": "AzureSQL_DB_Parameterised",
 	"properties": {
+		"parameters": {
+			"DBName": {
+				"type": "string"
+			}
+		},
 		"annotations": [
 			"Parameterised",
 			"CrossEnv"
@@ -8,7 +13,7 @@
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
 			"server": "dadfgbl0.database.windows.net",
-			"database": "dadfgbl0",
+			"database": "@{linkedService().DBName}",
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "SystemAssignedManagedIdentity"
