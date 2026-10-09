@@ -1,0 +1,15 @@
+{
+	"name": "KetanKADFTutorialDataFactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0e005133-2d16-4585-81a6-c76ede19941d",
+		"tenantId": "90880054-c639-42b9-975c-c9fb83d07828"
+	}
+}
