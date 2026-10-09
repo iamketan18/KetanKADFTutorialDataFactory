@@ -1,0 +1,15 @@
+{
+	"name": "DFiamketan",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "90a51212-7a11-4bfa-aaa9-3883e83f00f2",
+		"tenantId": "90880054-c639-42b9-975c-c9fb83d07828"
+	}
+}
